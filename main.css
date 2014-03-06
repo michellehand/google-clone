@@ -1,0 +1,157 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+ /*BEGIN ORIGINAL CSS*/
+a {
+	color: black;
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+header {
+	width: 100%;
+}
+nav {
+	font-family: sans-serif;
+	float:right;
+	font-size: 13px;
+}
+
+section {
+	clear: both;
+	width: auto;
+	text-align: center;
+	position: relative;
+	top: 100px;
+}
+
+#nav {
+	padding: 10px;
+	margin: 10px;
+}
+
+#icon {
+	vertical-align: middle;
+	height: 23px;
+}
+
+#sign-in {
+	border-radius: 3px;
+	font-weight: bold;
+	padding: 5px 10px;
+	border: 1px solid #0066ff;
+	background: linear-gradient(#3083ff, #0066ff);
+}
+
+#sign-in a {
+	color: white;
+}
+
+li {
+	display: inline;
+	margin-right: 15px;
+}
+
+#google {
+	height: 96px;
+	width: 270px;
+	padding: 20px;
+}
+#form {
+	text-align: center;
+	padding-bottom: 15px;
+
+}
+#search-box {
+	width: 500px;
+	height: 25px;
+	border: 1px solid #0066ff;
+}
+
+#voice {
+	margin-left: -30px;
+	height: 25px;
+	vertical-align: middle;
+
+}
+
+#buttons {
+	text-align: center;
+}
+
+.gray-button {
+	font-weight: bold;
+	margin: 8px;
+	padding: 5px 10px;
+	background: rgb(240, 240, 240);
+	border-radius: 2px;
+	border: 1px solid rgb(212, 212, 212);
+
+}
+
+footer {
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	height: 35px;
+	font-family: sans-serif;
+	font-size: 13px;
+	color: gray;
+	background-color: rgb(242, 242, 242);
+	border: 1px solid rgb(224, 224, 224);
+}
+
+#leftf {
+	float: left;
+	margin-left: 15px;
+	margin-top: 12px;
+}
+
+#rightf {
+	float: right;
+	position: relative;
+	margin-right: 15px;
+	margin-top: 12px;
+}
